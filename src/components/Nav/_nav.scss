@@ -1,13 +1,20 @@
-.nav {
-    margin-right: 65px;
+.nav-main {
+    display: flex;
+
+    &__links {
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 768px) {
 
-    .nav {
-        margin-right: 20px;
+    .nav-main {
+        flex-direction: column;
+
+        &__links {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
     }
-
-
 
 }

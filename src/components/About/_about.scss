@@ -40,3 +40,14 @@
     }
 
 }
+
+@media (max-width: 768px) {
+
+    .about {
+
+        &__cards {
+            flex-direction: column;
+        }
+    }
+
+}
