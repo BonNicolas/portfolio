@@ -3,19 +3,19 @@
 		"id": "1",
 		"title": "2D/3D",
 		"cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/cover_2d_3d.jpg",
-		"link":"/Graphics"
+		"link": "/Portfolio/Graphics"
 	},
 	{
 		"id": "2",
 		"title": "VIDEOS",
 		"cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/cover_videos.jpg",
-		"link":"/Videos"
+		"link": "/Portfolio/Videos"
 	},
 	{
 		"id": "3",
 		"title": "WEB",
 		"cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/cover_web.jpg",
-		"link":"/Web"
+		"link": "/Portfolio/Web"
 	}
 	
 ]

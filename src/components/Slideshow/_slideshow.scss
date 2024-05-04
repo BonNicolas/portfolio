@@ -31,6 +31,7 @@
     &__icon {
         color: $secondary-color;
         @include slideshow-shadow ($shadow-dark);
+        cursor: pointer;
 
         &--left {
             position: absolute;

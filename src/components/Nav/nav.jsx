@@ -6,10 +6,10 @@ function Nav() {
 
   return (
     <nav>
-      <NavLink className="nav cta cta--header" to="/">
+      <NavLink className="nav cta cta--header" to="/Portfolio/">
         Accueil
       </NavLink>
-      {!["/Videos", "/Web", "/Graphics"].includes(location.pathname) && (
+      {!["/Portfolio/Graphics", "/Portfolio/Videos", "/Portfolio/Web"].includes(location.pathname) && (
         <>
           <a className="nav cta cta--header" href='#apropos'>A Propos</a>
           <a className="nav cta cta--header" href='#competences'>Compétences</a>

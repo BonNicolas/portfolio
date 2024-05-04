@@ -10,20 +10,20 @@ import Error from './pages/Error/error'
 import './styles/index.scss'
 
 
-function App () {
-    return (
-        <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />   
-        <Route path="/Graphics" element={<Graphics />} />
-        <Route path="/Videos" element={<Videos />} />
-        <Route path="/Web" element={<Web />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
-      <Footer />
-    </Router>
-    )
+function App() {
+  return (
+      <Router>
+          <Header />
+          <Routes>
+              <Route path="/Portfolio/" element={<Home />} />   
+              <Route path="/Portfolio/Graphics" element={<Graphics />} />
+              <Route path="/Portfolio/Videos" element={<Videos />} />
+              <Route path="/Portfolio/Web" element={<Web />} />
+              <Route path="*" element={<Error />} />
+          </Routes>
+          <Footer />
+      </Router>
+  )
 }
 
 
