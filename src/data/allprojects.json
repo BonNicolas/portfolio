@@ -1,0 +1,256 @@
+{
+    "projects": {
+      "graphics": [
+        {
+          "id": "1",
+          "title": "Sganarelle",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/sganarelle/sganarelle_1.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/sganarelle/sganarelle_1.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/sganarelle/sganarelle_2.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/sganarelle/sganarelle_3.jpg"
+          ],
+          "description":"Modélisation du personnage de Sganarelle (court métrage Pinocchio)",
+          "tags": [
+            "3DS MAX",
+            "PHOTOSHOP"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Toujeo",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/04.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/05.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/06.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/toujeo/07.jpg"
+          ],
+          "description":"Création d'interfaces utilisateur (Toujeo) ",
+          "tags": [
+            "PHOTOSHOP"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "EDHEC",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/05.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/06.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/07.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/08.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/09.jpg"
+          ],
+          "description":"Modélisation de personnages et décors pour l'application EDHEC",
+          "tags": [
+            "3DS MAX",
+            "PHOTOSHOP"
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Musée Régional",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/exposition/exposition.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/exposition/exposition.jpg"
+          ],
+          "description":"Création d'une affiche pour une exposition",
+          "tags": [
+            "PHOTOSHOP"
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Beetlejuice",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/beetlejuice/beetlejuice.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/beetlejuice/beetlejuice.jpg"
+          ],
+          "description":"Modélisation du personnage de Beetlejuice (Version dessin animé)",
+          "tags": [
+            "3DS MAX",
+            "PHOTOSHOP"
+          ]
+        },
+        {
+          "id": "7",
+          "title": "Euro 2016",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/04.jpg"
+          ],
+          "description":"Création de l'interface du jeu Hyundai euro quiz",
+          "tags": [
+            "VENTUZ",
+            "PHOTOSHOP"
+          ]
+        },
+        {
+          "id": "8",
+          "title": "Metro",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/metro/01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/metro/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/metro/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/metro/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/metro/04.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/metro/05.jpg"
+          ],
+          "description":"Modélisation d'une bouche de métro",
+          "tags": [
+            "3DS MAX",
+            "PHOTOSHOP"
+          ]
+        }
+      ],
+
+      "videos": [
+        {
+          "id": "1",
+          "title": "DemoReel",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/demoReelCover.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/demoReel.mp4"
+          ],
+          "description":"Nicolas Bon DemoReel 2024",
+          "tags": [
+            "AFTER EFFECTS"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Eduspot",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/eduspotCover.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/eduspot.mp4"
+          ],
+          "description":"Trailer pour l'évènement Eduspot 2018",
+          "tags": [
+            "AFTER EFFECTS"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Piper",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/piperCover.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/piperCommercial.mp4"
+          ],
+          "description":"Trailer pour l'outil Piper",
+          "tags": [
+            "AFTER EFFECTS"            
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Renault Trucks",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/renaultBorneCover.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/borneTactile.mp4"
+          ],
+          "description":"Vidéo borne tactile Renault Trucks",
+          "tags": [
+            "AFTER EFFECTS"            
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Giving Tuesday",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/givingCover.jpg",
+          "medias": [
+          "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/trailerGivingTuesday.mp4"
+          ],
+          "description":"Trailer pour la fondation Paris Sud Université",
+          "tags": [
+            "AFTER EFFECTS"            
+          ]
+        },
+        {
+          "id": "6",
+          "title": "OZE VISIO",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/ozeVisioCover.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/ozeVisio.mp4"
+          ],
+          "description":"Vidéo explicative sur la visioconférence dans OZE",
+          "tags": [
+            "AFTER EFFECTS"            
+          ]
+        }
+      ],
+
+      "web": [
+        {
+          "id": "1",
+          "title": "Ohmyfood",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/ohmyfood/01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/ohmyfood/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/ohmyfood/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/ohmyfood/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/ohmyfood/04.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/ohmyfood/05.jpg"
+          ],
+          "description":"Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques",
+          "githubpage":"https://github.com/BonNicolas/PROJET-4.git",
+          "github":"https://github.com/BonNicolas/PROJET-4.git",
+          "tags": [
+            "HTML",
+            "SASS"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Sophie Bluel",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/04.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/05.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/06.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/07.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/08.jpg"
+          ],
+          "description":"Concevoir un site portfolio dynamique avec JavaScript d’une architecte d’intérieur",
+          "githubpage":"https://github.com/BonNicolas/PROJET-6.git",
+          "github":"https://github.com/BonNicolas/PROJET-6.git",
+          "tags": [
+            "HTML",
+            "SASS",
+            "JAVASCRIPT"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Kasa",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/kasa/01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/kasa/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/kasa/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/kasa/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/kasa/04.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/kasa/05.jpg"
+          ],
+          "description":"Créez une application web de location immobilière avec React",
+          "githubpage":"https://github.com/BonNicolas/PROJET-8.git",
+          "github":"https://github.com/BonNicolas/PROJET-8.git",
+          "tags": [
+            "REACT",
+            "SASS"
+          ]
+      }
+      ]
+    }
+}

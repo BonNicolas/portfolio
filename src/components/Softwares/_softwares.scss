@@ -1,0 +1,23 @@
+.softwares {
+
+    & h3 {
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: $tertiary-color;
+    }
+
+    & p {
+        margin: 10px 0;
+    }
+
+    & i {
+        font-size: 30px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

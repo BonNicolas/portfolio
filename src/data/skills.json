@@ -1,0 +1,45 @@
+{
+    "skills": {
+      "infographie": [
+        {
+          "name": "3ds Max",
+          "class": "devicon-threedsmax-plain"
+        },
+
+        {
+          "name": "After Effects",
+          "class": "devicon-aftereffects-plain"
+        },
+
+        {
+          "name": "Photoshop",
+          "class": "devicon-photoshop-plain"
+        },
+
+        {
+          "name": "Illustrator",
+          "class": "devicon-illustrator-plain"
+        }
+      ],
+
+      "frontend": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"          
+        }
+      ]
+        
+    }
+  }

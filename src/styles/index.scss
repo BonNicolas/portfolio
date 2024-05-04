@@ -1,0 +1,203 @@
+@import "./utils/variable-mixins";
+@import "../components/Banner/banner";
+@import "../layouts/Header/header";
+@import "../components/Nav/nav";
+@import "../layouts/Footer/footer";
+@import "../components/Gallery/gallery";
+@import "../components/Cards/cards";
+@import "./pages/about";
+@import "./pages/error";
+@import "../components/Slideshow/slideshow";
+@import "../components/Profile/profile";
+@import "../components/About/about";
+@import "../components/Experience/experience";
+@import "../components/Skills/skills";
+@import "../components/Softwares/softwares";
+@import "../components/Modal/modal";
+@import "../components/Tag/tag";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $background-grey-color;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-logo {
+
+  &--header {
+    width: 220px;
+  }
+
+  &--footer {
+    width: 130px;
+    filter: brightness(0) invert(1);
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+}
+
+.button {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 30px;
+  background: none;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &--cv {
+    background: $primary-color;
+    color: white;
+    border: none;
+  }
+
+  &--projects {
+    padding: 0.75rem;
+    width: 6rem;
+    color: $primary-color;
+  }
+
+  &--margin-r {
+    margin-right: 10px;
+  }
+
+}
+
+.cta {
+  text-decoration: none;
+
+  &--header {
+    font-size: 20px;
+    color: $tertiary-color;
+  }
+
+  &--gallery-card {
+    color: black;
+  }
+}
+
+
+.card {
+  padding: 20px;
+  flex: 1;
+  background: white;
+  border-radius: 30px;
+  text-align: center;
+  @include button-shadow ($shadow-light);
+
+  &--projects {
+    padding: 10px;
+  }
+
+  &--softwares {
+    width: 100%;
+  }
+
+  &--animation-hor-left {
+    animation: fade-in-left 2000ms both;
+  }
+
+  &--animation-hor-right {
+    animation: fade-in-right 2000ms both;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    gap: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-right {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+
+  body {
+    min-width: 320px;
+    height: 100vh;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .page-container {
+    flex-grow: 1;
+  }
+
+  .main-logo {
+
+    &--header {
+      width: 150px;
+    }
+
+    &--footer {
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .cta {
+
+    &--header {
+      font-size: 15px;
+    }
+
+  }
+
+  .card {
+
+    &__container {
+      display: grid;
+      grid-template-columns: 1.5fr;
+      gap: 60px;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+    }
+  }
+
+}

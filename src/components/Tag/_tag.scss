@@ -1,0 +1,33 @@
+.tag {
+
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 2px 12px;
+    border-radius: 10px;
+    margin-right: 5px;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, more than 768px) */
+@media (max-width: 768px) {
+
+    .tag {
+
+        border-radius: 5px;
+
+
+        &__container {
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+    }
+
+}

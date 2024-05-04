@@ -1,0 +1,52 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $primary-color;
+
+    &__image {
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        font-size: 40px;
+        margin: 90px 0;
+        text-align: center;
+    }
+
+    & a {
+        color: $primary-color;
+        margin-top: 50px;
+        margin-bottom: 140px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    .error {
+
+        &__image {
+            width: 200px;
+        }
+
+        &__text {
+            font-size: 20px;
+            margin: 70px 0;
+            padding: 0 6%;
+        }
+
+        & a {
+            margin-bottom: 110px;
+        }
+
+
+    }
+
+
+
+}
