@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <script>
+        // Fonction pour extraire le chemin de l'URL
+        function getPathFromUrl(url) {
+            return url.split("/").slice(3).join("/"); // Supprime le nom de domaine et la racine du chemin
+        }
+
+        // Redirection vers la bonne page en fonction du chemin de l'URL
+        var path = getPathFromUrl(window.location.pathname);
+        if (path.startsWith("/Portfolio")) {
+            window.location.replace("/Portfolio"); // Redirige vers la page principale de votre application React
+        } else {
+            window.location.replace("/"); // Redirige vers la racine si l'URL n'est pas reconnue
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Vous pouvez ajouter un contenu alternatif ici -->
+</body>
+
+</html>
