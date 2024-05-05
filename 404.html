@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script>
-        // Obtenez le chemin demandé à partir de l'URL
-        var path = window.location.pathname;
+    <meta charset="utf-8">
+    <title>GitHub Pages Issue</title>
+    <script type="text/javascript">
 
-        // Obtenez le paramètre de recherche de l'URL
-        var searchParams = new URLSearchParams(window.location.search);
-        var currentPage = searchParams.get("page");
+        var pathSegmentsToKeep = 1;
 
-        // Redirige vers la page correspondante dans l'application React
-        window.location.href = '/Portfolio' + path + (currentPage ? '?page=' + currentPage : '');
+        var l = window.location;
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
     </script>
 </head>
 
 <body>
-    <!-- Vous pouvez ajouter du contenu supplémentaire ici si nécessaire -->
 </body>
 
 </html>
