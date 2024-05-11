@@ -105,14 +105,6 @@ code {
     width: 100%;
   }
 
-  &--animation-hor-left {
-    animation: fade-in-left 2000ms both;
-  }
-
-  &--animation-hor-right {
-    animation: fade-in-right 2000ms both;
-  }
-
   &__container {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1.5fr;

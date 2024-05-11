@@ -5,7 +5,7 @@ function Softwares(props) {
       <h3>{props.title}</h3> 
       <div className="softwares__container"> 
       {props.skills.map((skill, index) => (
-        <div key={index}>
+        <div className="softwares__icons" key={index}>
           <i className={skill.class}></i>
           <p>{skill.name}</p>
         </div>
