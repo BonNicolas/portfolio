@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8ffd3c9f.css",
+    "main.css": "/portfolio/static/css/main.ccc85b72.css",
     "main.js": "/portfolio/static/js/main.9a2ea297.js",
     "static/js/592.6d7de513.chunk.js": "/portfolio/static/js/592.6d7de513.chunk.js",
     "static/media/profil_01.png": "/portfolio/static/media/profil_01.9893c5ba838268bd6cf4.png",
     "static/media/BON_NICOLAS_CV_2024.pdf": "/portfolio/static/media/BON_NICOLAS_CV_2024.8c19f946c53ea3a2e6e6.pdf",
     "static/media/404.svg": "/portfolio/static/media/404.f20604d9c3f0bf4b2680c8aab9b26cc3.svg",
     "index.html": "/portfolio/index.html",
-    "main.8ffd3c9f.css.map": "/portfolio/static/css/main.8ffd3c9f.css.map",
+    "main.ccc85b72.css.map": "/portfolio/static/css/main.ccc85b72.css.map",
     "main.9a2ea297.js.map": "/portfolio/static/js/main.9a2ea297.js.map",
     "592.6d7de513.chunk.js.map": "/portfolio/static/js/592.6d7de513.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ffd3c9f.css",
+    "static/css/main.ccc85b72.css",
     "static/js/main.9a2ea297.js"
   ]
 }
