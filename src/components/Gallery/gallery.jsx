@@ -10,7 +10,7 @@ function Gallery() {
       {AllCategories.map((props) => {
         return(
         <Link className="cta cta--gallery-card" key={props.id} to={props.link}>
-          <Cards image={props.cover} title={props.title}/>
+          <Cards image={props.cover} title={props.title} alt={props.title}/>
         </Link>
         )
       })}

@@ -36,6 +36,18 @@
         },
         {
           "id": "3",
+          "title": "Musée Régional",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/exposition/exposition.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/exposition/exposition.jpg"
+          ],
+          "description":"Création d'une affiche pour une exposition",
+          "tags": [
+            "PHOTOSHOP"
+          ]
+        },
+        {
+          "id": "4",
           "title": "EDHEC",
           "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/edhec/01.jpg",
           "medias": [
@@ -55,19 +67,23 @@
           ]
         },
         {
-          "id": "4",
-          "title": "Musée Régional",
-          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/exposition/exposition.jpg",
+          "id": "5",
+          "title": "Euro 2016",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/01.jpg",
           "medias": [
-            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/exposition/exposition.jpg"
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/04.jpg"
           ],
-          "description":"Création d'une affiche pour une exposition",
+          "description":"Création de l'interface du jeu Hyundai euro quiz",
           "tags": [
+            "VENTUZ",
             "PHOTOSHOP"
           ]
         },
         {
-          "id": "5",
+          "id": "6",
           "title": "Beetlejuice",
           "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/beetlejuice/beetlejuice.jpg",
           "medias": [
@@ -81,18 +97,14 @@
         },
         {
           "id": "7",
-          "title": "Euro 2016",
-          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/01.jpg",
+          "title": "Article",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/magazine/01.jpg",
           "medias": [
-            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/01.jpg",
-            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/02.jpg",
-            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/03.jpg",
-            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/foot/04.jpg"
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/2d/magazine/01.jpg"
           ],
-          "description":"Création de l'interface du jeu Hyundai euro quiz",
+          "description":"Création d'une double page pour un article presse",
           "tags": [
-            "VENTUZ",
-            "PHOTOSHOP"
+            "INDESIGN"
           ]
         },
         {
@@ -132,9 +144,10 @@
           "title": "Eduspot",
           "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/eduspotCover.jpg",
           "medias": [
-            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/eduspot.mp4"
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/eduspot.mp4",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/videos/eduspot_animations_logos.mp4"
           ],
-          "description":"Trailer pour l'évènement Eduspot 2018",
+          "description":"Evènement Eduspot 2018",
           "tags": [
             "AFTER EFFECTS"
           ]
@@ -224,7 +237,7 @@
             "https://raw.githubusercontent.com/BonNicolas/medias/main/images/web/bluel/08.jpg"
           ],
           "description":"Concevoir un site portfolio dynamique d’une architecte d’intérieur avec JavaScript ",
-          "githubpage":"https://github.com/BonNicolas/PROJET-6.git",
+          "githubpage":"https://bonnicolas.github.io/sophiebluel/",
           "github":"https://github.com/BonNicolas/PROJET-6.git",
           "tags": [
             "HTML",

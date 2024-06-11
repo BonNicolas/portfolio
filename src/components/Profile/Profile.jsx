@@ -10,7 +10,7 @@ function Profile (){
         <section className='profile'>
             <img className='profile__img' src={ImageProfile} alt="Profil"/>
             <div className='profile__container-text'>
-                <h1>Nicolas B.</h1>
+                <h1>Nicolas Bon</h1>
                 <p>Infographiste 2D/3D</p>
                 <div>
                 <Link to={CV} target='_blank'>
