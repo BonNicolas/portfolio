@@ -123,6 +123,31 @@
             "3DS MAX",
             "PHOTOSHOP"
           ]
+        },
+        {
+          "id": "9",
+          "title": "BGC",
+          "cover": "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/soliance-01.jpg",
+          "medias": [
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/soliance-01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/soliance-02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/soliance-03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/asmodee-01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/asmodee-02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/philips-01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/philips-02.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/philips-03.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/philips-04.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/cdv-01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/koch-media-0.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/koch-media-01.jpg",
+            "https://raw.githubusercontent.com/BonNicolas/medias/main/images/3d/bgc/thq-01.jpg"            
+          ],
+          "description":"Modélisation de stands pour showroom",
+          "tags": [
+            "3DS MAX",
+            "PHOTOSHOP"
+          ]
         }
       ],
 

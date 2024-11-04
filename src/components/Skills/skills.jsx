@@ -22,10 +22,12 @@ function Skills() {
       <div className="skills__cards">
         {SkillsContent.map((data, index) => {
           const skills = SkillsData.skills[data.category];
-          const animationClass = index === 0 ? 'card--animation-hor-left' : 'card--animation-hor-right';
           return (
-            <Softwares key={data.id} title={data.title} skills={skills} animationClass={animationClass} />
-          );
+            <Softwares key={data.id} 
+            title={data.title} s
+            kills={skills} 
+            />
+          )
         })}
       </div>
     </section>

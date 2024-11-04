@@ -6,20 +6,17 @@ import AllProjects from "../../data/allprojects.json";
 function Graphics() {
   const graphicsProjects = AllProjects.projects.graphics;
   const [selectedProject, setSelectedProject] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false); 
-
+  
   const openModal = (project) => {
     setSelectedProject(project);
-    setIsModalOpen(true); 
   };
 
   const closeModal = () => {
     setSelectedProject(null);
-    setIsModalOpen(false); 
   };
 
   return (
-    <section className="videos">
+    <section className="graphics">
       <div className="card__container">
         {graphicsProjects.map((project) => (
           <Cards
@@ -30,7 +27,7 @@ function Graphics() {
           />
         ))}
       </div>
-      {isModalOpen && selectedProject && (
+      {selectedProject && (
         <Modal
           project={selectedProject}
           onClose={closeModal}

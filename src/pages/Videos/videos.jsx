@@ -5,17 +5,14 @@ import AllProjects from "../../data/allprojects.json";
 
 function Videos() {
   const videosProjects = AllProjects.projects.videos;
-  const [selectedProject, setSelectedProject] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false); 
+  const [selectedProject, setSelectedProject] = useState(null); 
 
   const openModal = (project) => {
-    setSelectedProject(project);
-    setIsModalOpen(true); 
+    setSelectedProject(project); 
   };
 
   const closeModal = () => {
     setSelectedProject(null);
-    setIsModalOpen(false); 
   };
 
   return (
@@ -30,7 +27,7 @@ function Videos() {
           />
         ))}
       </div>
-      {isModalOpen && selectedProject && (
+      {selectedProject && (
         <Modal
           project={selectedProject}
           onClose={closeModal}

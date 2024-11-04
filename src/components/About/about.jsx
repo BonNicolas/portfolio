@@ -30,14 +30,12 @@ function About() {
         <div className='about__details'>
         <div className="about__cards">
           {ExperienceContent.map((data, index) => {
-            const animationClass = index === 0 ? 'card--animation-hor-left' : 'card--animation-hor-right';
             return(
               <Experience key={data.id}
               icon={data.icon}
               title={data.title} 
               first={data.first}
               two={data.two}
-              animationClass={animationClass}
               />
             )
           })}
