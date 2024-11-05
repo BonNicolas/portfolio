@@ -24,8 +24,8 @@ function Skills() {
           const skills = SkillsData.skills[data.category];
           return (
             <Softwares key={data.id} 
-            title={data.title} s
-            kills={skills} 
+            title={data.title}
+            skills={skills} 
             />
           )
         })}
