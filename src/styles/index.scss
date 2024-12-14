@@ -1,12 +1,10 @@
 @import "./utils/variable-mixins";
-@import "../components/Banner/banner";
 @import "../layouts/Header/header";
 @import "../components/Nav/nav";
 @import "../layouts/Footer/footer";
 @import "../components/Gallery/gallery";
 @import "../components/Cards/cards";
-@import "./pages/about";
-@import "./pages/error";
+@import "../pages/Error/error";
 @import "../components/Slideshow/slideshow";
 @import "../components/Profile/profile";
 @import "../components/About/about";
@@ -74,6 +72,33 @@ code {
   }
 
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 12em;
+  right: 0;
+  cursor: pointer;
+  color: $primary-color;
+  opacity: 0;
+  pointer-events: none;
+  animation: fadeInAnimation 0.5s ease-out forwards;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .cta {
   text-decoration: none;
